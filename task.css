@@ -1,0 +1,357 @@
+body{
+    background-color: #E5E5E5;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+
+    }
+nav{
+    position: fixed;
+    width: 100vw;
+    height: 10%;
+    top: 0px;
+    left: 0px;
+    background-color: #FFFFFF;
+
+    }
+.imgloop{
+    position: absolute;
+    left: -5px;
+    height: 43px;
+    width: 43px;
+    top: -15px;
+
+
+    }
+.todo{
+    position: absolute;
+    height: 16px;
+    left: 137px;
+    top: 20px;
+    color: #4673E4;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 14px;
+
+    }
+.notes{
+    position: absolute;
+    left: 235px;
+    top: 20px;
+    color: #777777;
+
+    }
+.links{
+    position: absolute;
+    left: 320px;
+    top: 20px;
+
+
+    }
+.fa-solid{
+    padding-right: 10px;
+    }
+.rectangle18{
+    position: absolute;
+    width: 476px;
+    height: 45px;
+    background-color: #F6F7FB;
+    left: 740px;
+    top: 6px;
+    border-radius: 9999PX;
+    }
+.searchicon{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+
+    }
+.search{
+    position: absolute;
+    left: 59px;
+    top: 12px;
+
+    }
+.createtask{
+    position: absolute;
+    height: 90%;
+    width: 72%;
+    background-color: #E5E5E5;
+    top: 10%; 
+    overflow: hidden;   
+    }
+.nopen{
+    position: absolute;
+    width: 28%;
+    height: 90%;
+    top: 10%;
+    background-color: #FFFFFF;
+    
+    right: 0px;
+
+    }
+#rectangle74{
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    top: 76px;
+    left: 59px;
+    background-color: #FFFFFF;
+    border-radius: 999px;
+    }
+.alltodos{
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    width: 50px;
+    color: #444444;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 10px;
+    
+}
+
+.backlog{
+    position: absolute;
+    top: 80px;
+    left: 12px;
+    color: #444444;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 10px;
+
+}
+.inprogress{
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    width: 50px;
+    color: #444444;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 10px;
+
+}
+.finished{
+    position: absolute;
+    top: 160px;
+    left: 12px;
+    color: #444444;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 10px;
+
+}
+.overdue{
+    position: absolute;
+    top: 200px;
+    left: 12px;
+    color: #444444;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 10px;
+
+}
+.trash{
+    position: absolute;
+    top: 240px;
+    left: 12px;
+    color: #444444;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 10px;
+}
+.fa01{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    color: #4673E4;
+}
+.otodos{
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    color: #000000;
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 36px;
+    left: 158px;
+    top: 37px;
+}
+.ellipse29{
+    position: absolute;
+    left: 417px;
+    top: 160px;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+
+    justify-content: center;
+
+
+}
+.img29{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 25px;
+    left: 25px;
+    
+}
+.fa-files{
+    position: absolute;
+    left: 160px;
+    height: 160px;
+}
+.rectangle4{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    top: 37px;
+    left: 670px;
+    border-radius: 5px;
+    background-color:#28BA63;
+    }
+.fa-circle-plus{
+    position: absolute;
+    left: 25px;
+    top: 9px;
+    background-color: #28BA63;
+    color: #FFFFFF;
+    
+    
+    }
+.createtasktext{
+    position: absolute;
+    height: 9px;
+    left: 54px;
+    top: 7px;
+    color: #EEEEEE;
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 16px;
+
+    }
+.rectangle53{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 430px;
+    left: 158px;
+    background-color: #4673E4;
+    color: #FFFFFF;
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 14px;
+    text-indent: 10px;
+    text-align: center;
+    text-indent: 5px;
+
+
+    }
+.rectangle54{
+    position: absolute;
+    justify-items: center;
+    width: 90px;
+    height: 30px;
+    top: 430px;
+    left: 484px;
+    background-color: #4673E4;
+    color: #FFFFFF;
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 14px;
+    text-indent: 10px;
+
+
+    }
+.fa-arrow-right{
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    
+    }
+.fa-arrow-left{
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    }
+.ellipse1dot{
+    position: absolute;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    top: 425px;
+    background-color: #777777;
+    color: #4673E4;
+    border-radius: 50%;
+
+    }
+.ellipse2dot{
+    position: absolute;
+    left: 345px;
+    width: 40px;
+    height: 40px;
+    top: 425px;
+    background-color: #4673E4;
+    color: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    
+    }
+.ellipse3dot{
+    position: absolute;
+    left: 410px;
+    width: 40px;
+    height: 40px;
+    top: 425px;
+    background-color: #4673E4;
+    color: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    
+    }
+.no1{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    }
+.no2{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    }
+.no3{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    }
+.nopenvector{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    
+    
+    }
+.nopentext{
+    position: absolute;
+    top: 80px;
+    left: -30px;
+    width: 240px;
+    color: #979BA9;
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 14px;
+}
+.fa-0{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 13px;
+
+}
