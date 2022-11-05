@@ -63,28 +63,30 @@
          </div> 
          
          <div class="aloginpage">
-            <div class="aformpage">
+            <form id="sigInform" method="POST" onsubmit="signin(event)">
                 <div class="aellipse25">
                     <img src="C:\Users\emmanuel.eze\Three60\images\TRIANG LOOP SYMBOL.png" alt="ellipsse25">
                 </div>
                 <div class="athree60">three60</div>
                 <div class="acreateaccount">Welcome back</div>
-                <div class="logs">Log in to continue </div>
-                <div class="aemail">Email</div>
-                <div class="arectangle168"></div>
-                <div class="apassword">Password</div>
-                <div class="arectangle147"></div>                               
-                <div class="arectangle167">
-                    <div class="asignin">Sign in</div>
-                </div>
-                <div class="arectangle148">
-                    <div class="agoogle">
-                        <img src="C:\Users\emmanuel.eze\Three60\images\Google logo.png" alt="google">
-                    </div>
-                    <div class="asignup">Sign up with Google</div>
-                </div>
-                <div class="anotyetsign">Not yet signed up?<a href="C:\Users\emmanuel.eze\Three60\create_account.html" >Create your account here</a></div>
-                <div class="aprivacy">Privacy Policy Terms of Service</div>
+                <div class="logs">Log in to continue</div>
+                <label for="aemail" id="alemail"><b>Email/Username</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="aemail">
+                <small id="email_msg"></small>
+
+                <label for="password" id="alpsw"><b>Password</b></label>
+                <input type="password" placeholder="Enter password" name="password" id="apsw">
+                <small id="password_msg"></small>
+
+                <button type="submit" id="sigIn_btn" value="sign In" >Signin</button>
+
+                <div class="arectangle148"><a href=""><img src="images/Google logo.png">signup with google</a></div>
+                <script type = "text/javascript" src="authenticate.js"></SCript>
+                </form>
+                
+                <div class="anotyetsign">Not yet signed up? <a href="C:\Users\emmanuel.eze\Three60\index.html">Create account here</a></div>
+                <div class="aprivacy"><a href="">Policy and Terms of Service</a> </div>
+                  
             </div>
         </div>
             

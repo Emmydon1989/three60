@@ -63,30 +63,35 @@
          </div> 
          
          <div class="loginpage">
-            <div class="formpage">
+            <form id="signInForm" method = "post" onsubmit="signup(event)">
                 <div class="ellipse25">
                     <img src="C:\Users\emmanuel.eze\Three60\images\TRIANG LOOP SYMBOL.png" alt="ellipsse25">
                 </div>
                 <div class="three60">three60</div>
-                <div class="createaccount">Create account</div>
-                <div class="email">Email/Username</div>
-                <div class="rectangle168"></div>
-                <div class="password">Password</div>
-                <div class="rectangle147"></div>
-                <div class="confirm">Confirm Password</div>
-                <div class="rectangle169"></div>
-                <div class="rectangle167">
-                    <div class="signin">Sign in</div>
-                </div>
-                <div class="rectangle148">
-                    <div class="google">
-                        <img src="C:\Users\emmanuel.eze\Three60\images\Google logo.png" alt="google">
-                    </div>
-                    <div class="signup">Sign up with Google</div>
-                </div>
-                <div class="notyetsign">Not yet signed up?<a href="#" >Create your account here</a></div>
-                <div class="privacy">Privacy Policy Terms of Service</div>
+                <div class="createaccount">Create Account</div>
+                <label for="email" id="email"><b>Email/Username</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="signIn_email">
+                    <small id="signIn_email_msg"></small>
+
+                <label for="password" id="lpsw"><b>Password</b></label>
+                <input type="password" placeholder="Enter password" name="password" id="signIn_pwd">
+                <small id="signIn_pwd_msg"></small>
+
+                <label for="Confirm password" id="lconfirmpsw"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Re-enter password" name="password" id="confirmpwd">
+                <small id="signIn_confirmpwd_msg"></small>
+
+                <button type="submit" id="sigIn_btn" value="sign In" >Signup</button>
+                    
+
+                <div class="rectangle148"><a href=""><img src="images/Google logo.png">signup with google</a></div>
+
+                </form>
+                <div class="notyetsign">Already have an account? <a href="C:\Users\emmanuel.eze\Three60\authenticate.html">Signin here</a></div>
+                <div class="privacy"><a href="">Policy and Terms of Service</a> </div>
+                
             </div>
+            <script type="text/javascript" src="home.js"></script>
         </div>
             
     </div>

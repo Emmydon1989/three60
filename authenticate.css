@@ -215,20 +215,11 @@ body{
     
 
 }
-.aformpage{
-    position: absolute;
-    width: 354px;
-    height: 530px;
-    top: 10%;
-    right: 23%;
-    background-color: #E5E5E5;
 
-
-}
 .aellipse25{
     position: absolute;
-    left: -15px;
-    top: 0px;
+    left: 80px;
+    top: 30px;
     
 }
 .athree60{
@@ -259,108 +250,123 @@ body{
     position: absolute;
     width: 118px;
     height: 13px;
-    left: 0px;
-    top: 100px;
+    left: 100px;
+    top: 140px;
     color: #979BA9;
     Font-family: Rubik;
     Font-style: Regular;
     Font-size: 14px;
 }
-.aemail{
+.athree60{
     position: absolute;
-    width: 105px;
-    height: 12px;
-    left: 0px;
-    top: 121px;
-    color: #7D8089;
-    Font-family: Roboto;
-    Font-style: Medium;
-    Font-size: 14px;
-
-}
-.arectangle168{
-    position: absolute;
-    width: 354px;
-    height: 30px;
-    left: 0px;
-    top: 137px;
-    background-color: rgba(0, 0, 0, 0.11);
-
-}
-.apassword{
-    position: absolute;
-    width: 62px;
-    height: 10px;
-    top: 180px;
-    left: 0px;
-    color: #7D8089;
-    Font-family: Roboto;
-    Font-style: Medium;
-    Font-size: 14px;
-}
-
-.arectangle147{
-    position: absolute;
-    width: 354px;
-    height: 30px;
-    top: 198px;
-    background-color: rgba(0, 0, 0, 0.11);
-}
-
-
-
-.arectangle167{
-    position: absolute;
-    width: 354px;
-    height: 30px;
-    left: 0px;
-    top: 260px;
-    background-color: #2468EB;
-
-}
-.asignin{
-    position: absolute;
-    width: 60px;
-    height: 12px;
-    top: 7px;
-    left: 170px;
-    color: #FFFFFF;
-    Font-family: Rubik;
-    Font-style: Regular;
-    Font-size: 14px;
-
-}
-.arectangle148{
-    position: absolute;
-    width: 354px;
-    height: 30px;
-    top: 320px;
-    left: 0px;
-    background-color: rgba(36, 104, 235, 0.12);
-
-}
-.agoogle{
-    position: absolute;
-    left: 117.9px;
-    top: 6px;
-
-
-}
-.asignup{
-    position: absolute;
-    left: 146px;
-    top: 7px;
+    width: 94px;
+    height: 23;  
+    left: 150px;
+    top: 60px;
     color: #2468EB;
     Font-family: Rubik;
-    Font-style: Regular;
-    Font-size: 14px;
+    Font-style: Medium;
+    Font-size: 24px;
+
 }
+.acreateaccount{
+    position: absolute;
+    width: 181px;
+    height: 25px;
+    left: 100PX;
+    top: 94px;
+    color: #000000;
+    Font-family: Rubik;
+    Font-style: Medium;
+    Font-size: 24px;
+}
+#aemail{
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    left: 100px;
+    top: 195px;
+    color: #7D8089;
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    background-color: rgba(36, 104, 235, 0.03);
+    border: none;
+
+}
+#email_msg{
+    position: absolute;
+    left: 100px;
+    top: 220px;
+}
+#alemail{
+    position: absolute;
+    left: 100px;
+    top: 175px;
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    color: #7D8089;
+}
+
+#apsw{
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 260px;
+    left: 100px;
+    color: #7D8089;
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    background-color: rgba(36, 104, 235, 0.03);
+    border: none;
+}
+#password_msg{
+    position: absolute;
+    top: 285px;
+    left: 100px;
+}
+#alpsw{
+    position: absolute;
+    left: 100px;
+    top: 235px;
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    color: #7D8089;
+}
+
+#sigIn_btn{
+    position: absolute;
+    width: 354PX;
+    height: 30PX;
+    top: 325PX;
+    left: 100PX;
+    background-color: #2468EB;
+    border: none;
+}
+
+.arectangle148{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 354px;
+    height: 30px;
+    top: 390px;
+    left: 100px;
+    background-color: rgba(36, 104, 235, 0.12);
+    color: #2468EB;
+
+}
+
 .anotyetsign{ 
     position: absolute;
     width: 275px;
     height: 12px;
-    left: 0px;
-    top: 415px;
+    left: 100px;
+    top: 440px;
     Font-family: Roboto;
     Font-style: Regular;
     Font-size: 14px;
@@ -372,8 +378,8 @@ a{
 }
 .aprivacy{
     position: absolute;
-    top: 450px;
-    left: 0px;
+    top: 470px;
+    left: 100px;
     width: 221px;
     height: 12px;
     color: #979BA9;

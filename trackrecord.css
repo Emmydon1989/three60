@@ -18,16 +18,23 @@ nav{
         height: 16px;
         left: 137px;
         top: 20px;
-        color: #4673E4;
+        
         Font-family: Rubik;
         Font-style: Regular;
-        Font-size: 14px;    
+        Font-size: 14px;
+         
         }
+    .todo:hover{
+        color: #4673E4;
+    }
     .notes{
         position: absolute;
         left: 235px;
         top: 20px;
         color: #777777;    
+        }
+        .notes:hover{
+            color: #4673E4;
         }
     .links{
         position: absolute;

@@ -168,10 +168,7 @@ body{
     top: 44px;
     left: 22px;
     }
-.eclipse28{
 
-
-  }
            
 .img3{
     position: absolute;
@@ -238,164 +235,173 @@ body{
 }
 .ellipse25{
     position: absolute;
-    left: -15px;
-    top: 0px;
+    left: 80px;
+    top: 25px;
     
 }
 .three60{
     position: absolute;
     width: 94px;
     height: 23;  
-    left: 70px;
-    top: 30px;
+    left: 150px;
+    top: 60px;
     color: #2468EB;
     Font-family: Rubik;
     Font-style: Medium;
     Font-size: 24px;
-
 
 }
 .createaccount{
     position: absolute;
     width: 181px;
     height: 25px;
-    left: 0PX;
-    top: 80px;
+    left: 100PX;
+    top: 94px;
     color: #000000;
     Font-family: Rubik;
     Font-style: Medium;
     Font-size: 24px;
 }
-.email{
+#signIn_email{
     position: absolute;
-    width: 105px;
-    height: 12px;
-    left: 0px;
-    top: 121px;
+    width: 350px;
+    height: 25px;
+    left: 100px;
+    top: 141px;
     color: #7D8089;
     Font-family: Roboto;
     Font-style: Medium;
     Font-size: 14px;
+    background-color: rgba(36, 104, 235, 0.03);
+    border: none;
 
 }
-.rectangle168{
+#signIn_email_msg{
     position: absolute;
-    width: 354px;
-    height: 30px;
-    left: 0px;
-    top: 137px;
-    background-color: rgba(0, 0, 0, 0.11);
+    top: 164px;
+    left: 100px;
+    
 
 }
-.password{
+#email{
     position: absolute;
-    width: 62px;
-    height: 10px;
-    top: 180px;
-    left: 0px;
+    left: 100px;
+    top: 125px;
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    color: #7D8089;
+}
+
+#signIn_pwd{
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 200px;
+    left: 100px;
     color: #7D8089;
     Font-family: Roboto;
     Font-style: Medium;
     Font-size: 14px;
+    background-color: rgba(36, 104, 235, 0.03);
+    border: none;
 }
-
-.rectangle147{
+#signIn_pwd_msg{
     position: absolute;
-    width: 354px;
-    height: 30px;
-    top: 198px;
-    background-color: rgba(0, 0, 0, 0.11);
-}
-.confirm{
-    position: absolute;
-    width: 354px;
-    height: 30px;
-    top: 243px;
-    left: 0px;
-    color: #7D8089;
-    Font-family: Roboto;
-    Font-style: Medium;
-    Font-size: 14px;
-}
-.rectangle169{
-    position: absolute;
-    width: 354px;
-    height: 30px;
-    left: 0px;
-    top: 265px;
-    background-color: rgba(0, 0, 0, 0.11);
+    top: 224px;
+    left: 100px;
     
 }
-.rectangle167{
+#lpsw{
     position: absolute;
-    width: 354px;
-    height: 30px;
-    left: 0px;
-    top: 325px;
-    background-color: #2468EB;
-
-}
-.signin{
-    position: absolute;
-    width: 60px;
-    height: 12px;
-    top: 7px;
-    left: 170px;
-    color: #FFFFFF;
-    Font-family: Rubik;
-    Font-style: Regular;
+    left: 100px;
+    top: 185px;
+    Font-family: Roboto;
+    Font-style: Medium;
     Font-size: 14px;
+    color: #7D8089;
+}
+
+
+#confirmpwd{
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 263px;
+    left: 100px;
+    color: #7D8089;
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    background-color: rgba(36, 104, 235, 0.03);
+    border-radius: 3px;
+    border: none;
+}
+#lconfirmpsw{
+    position: absolute;
+    top: 248px;
+    left: 100px;
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    color: #7D8089;
+}
+#signIn_confirmpwd_msg{
+    position: absolute;
+    top: 284px;
+    left: 100px;
+    
 
 }
+
+
+
 .rectangle148{
+    display: flex;
     position: absolute;
+    justify-content: center;
+    align-items: center;
     width: 354px;
     height: 30px;
-    top: 370px;
-    left: 0px;
+    top: 390px;
+    left: 100px;
     background-color: rgba(36, 104, 235, 0.12);
-
-}
-.google{
-    position: absolute;
-    left: 117.9px;
-    top: 6px;
-
-
-}
-.signup{
-    position: absolute;
-    left: 146px;
-    top: 7px;
     color: #2468EB;
-    Font-family: Rubik;
-    Font-style: Regular;
-    Font-size: 14px;
+
 }
+
 .notyetsign{ 
     position: absolute;
     width: 275px;
     height: 12px;
-    left: 0px;
-    top: 415px;
+    left: 100px;
+    top: 440px;
     Font-family: Roboto;
     Font-style: Regular;
     Font-size: 14px;
-
-
 }
 a{
     text-decoration: none;
 }
 .privacy{
     position: absolute;
-    top: 450px;
-    left: 0px;
+    top: 470px;
+    left: 100px;
     width: 221px;
     height: 12px;
     color: #979BA9;
     Font-family: Roboto;
     Font-style: Regular;
     Font-size: 14px;
+}
+#sigIn_btn{
+    position: absolute;
+    top: 320px;
+    width: 354px;
+    height: 35px;
+    left: 100px;
+    background-color: #2468EB;
+    color: #FFFFFF;
+    border: none;
 }
 
